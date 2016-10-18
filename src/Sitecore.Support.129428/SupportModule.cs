@@ -1,8 +1,9 @@
 ﻿using ISearchProvider = Sitecore.Social.Search.ISearchProvider;
+using Ninject.Modules;
 
 namespace Sitecore.Support.Social.IoC.Modules
 {
-    public class SupportModule : Sitecore.Social.IoC.Modules.ProvidersModule
+    public class SupportModule : NinjectModule
     {
         public override void Load()
         {
